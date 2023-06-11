@@ -1,0 +1,66 @@
+baseurl = "https://tails-mvt.github.io"
+DefaultContentLanguage = "en"
+title = "Tails-MVT"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  homeTitle = "Tails-MVT"
+  #subtitle = ""
+  mainSections = ["post","posts"]
+  #logo = "img/tails-mvt.png" # Expecting square dimensions
+  #favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = false
+  wordCount = false
+  useHLJS = false
+  socialShare = false
+  delayDisqus = false
+  showRelatedPosts = false
+#  hideAuthor = true
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jssspg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Action Aid Denmark"
+  website = "https://www.ms.dk"
+
+[[menu.main]]
+    name = "Get Started"
+    url = "page/get-started/"
+    weight = 1
+
+[[menu.main]]
+    name = "Analyse iOS devices"
+    url = "page/analyse-ios/"
+    weight = 2
+
+[[menu.main]]
+    name = "Analyse Android devices"
+    url = "page/analyse-android/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 4
