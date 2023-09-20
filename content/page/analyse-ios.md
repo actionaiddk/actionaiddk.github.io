@@ -39,7 +39,7 @@ To decrypt the backup, type the following command and replace <password> with th
 The analysis will now run and analyse the data with the indicators of compromised provided by [Mobile Verification Toolkit](https://github.com/mvt-project/mvt).
 
 #### 1.5 Error handling
-You may run into an issue where the backup of the iOS device takes up more space than available in the file system. To circumvent this issue, you must flash the Tails-MVT image to a larger media or plug in an external drive after booting, to store the backup. The external will mount itself under `/media/amnesia/<device name>`. Before running the commands in step 2.1, 2.2, 2.3 and 2.4, write the following command to change your working directory to the external drive.
+You may run into an issue where the backup of the iOS device takes up more space than available in the file system. To circumvent this issue, you must flash the Tails-MVT image to a larger media or plug in an external drive after booting, to store the backup. The external will mount itself under `/media/amnesia/<device name>`. Before running the commands in step 1.1, 1.2, 1.3 and 1.4, write the following command to change your working directory to the external drive.
 
 ```
 cd /media/amnesia/<device name>
