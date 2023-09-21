@@ -10,5 +10,6 @@ After obtaining the image, flash it to a USB drive or SD card in order to create
 #### 1.2 Booting Tails-MVT
 Once the image has been flashed to the media, insert it into the laptop from which the analysis shall be conducted. Press **f12** during boot (may vary from manufacturer) in order to select the USB media from boot options. You may need to disable secure boot and, or enable legacy mode in the BIOS settings. Once the image has booted, press **Start Tails**.
 
+
 #### ⚠️ **IMPORTANT** ⚠️ ####
 Not finding any indications of compromise does **NOT** mean your device is not infected. It just means that the public indicators of compromise was not matched with data extracted from your phone. The indicators are derived from forensic work and they are publicly available. This means the the spyware authors have access to them as well, and can rule them out of future spyware and infections.  
